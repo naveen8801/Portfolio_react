@@ -16,7 +16,7 @@ function Skills() {
           name="Javascipt"
         />
         <Skill_Tag
-          img_src="https://www.flaticon.com/svg/vstatic/svg/1126/1126012.svg?token=exp=1615874745~hmac=311c8805747b25185a4cdc548b1d19f8"
+          img_src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
           name="React"
         />
         <Skill_Tag
