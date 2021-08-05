@@ -2,6 +2,13 @@
   margin-top: 30px;
   text-align: center;
 }
+.bg {
+  background-color: #f9f9f9;
+  display: inline-block;
+  border-style: none;
+  border-radius: 1rem;
+  width: 50%;
+}
 
 .name_skills {
   font-size: 45px;
@@ -23,3 +30,14 @@
   width: 60%;
 }
 
+@media only screen and (max-width: 1352px) {
+  .bg {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 821px) {
+  .bg {
+    width: 100%;
+  }
+}

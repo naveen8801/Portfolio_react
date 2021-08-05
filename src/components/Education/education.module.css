@@ -3,15 +3,27 @@
   text-align: center;
 }
 
+.bg {
+  background-color: #f9f9f9;
+  display: inline-block;
+  border-style: none;
+  border-radius: 1rem;
+  width: 50%;
+}
+
+.bg:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .name_header {
   font-size: 45px;
   display: inline-block;
   width: 100%;
   margin: 0px;
   padding: 0px;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 300;
-  letter-spacing: 0.03.rem;
+  letter-spacing: 0.03rem;
 }
 
 ul {
@@ -24,14 +36,14 @@ ul {
 }
 
 .heading_ul {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   font-size: 20px;
 }
 
 .edu_list {
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
@@ -39,4 +51,15 @@ ul {
   text-align: center;
   display: inline-block;
   width: 60%;
+}
+@media only screen and (max-width: 1352px) {
+  .bg {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 821px) {
+  .bg {
+    width: 100%;
+  }
 }

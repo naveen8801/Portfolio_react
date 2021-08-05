@@ -1,48 +1,61 @@
-.project_tile{
-    display: inline-block;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-    font-family: "Quicksand", sans-serif;
-    margin: 18px;
-    padding: 16px;
-    width: 330px;
-    text-align: initial;
-    padding: 2rem;
-}
-.project_tile:hover{
-    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-}
-
-a{
-    text-decoration: none;
-    color: rgba(10, 0, 0, 0.863);
+.project_tile {
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  margin: 18px;
+  padding: 5px;
+  width: 180px;
+  text-align: initial;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 1rem;
+  background-color: white;
 }
 
-a:hover{
-    text-decoration: none;
-    color: rgba(10, 105, 247, 0.877);
-}
-.name{
-    margin: 0px;
-    padding: 0px;
-    font-weight: 300;
-    margin-top: 0.5rem;
+a {
+  text-decoration: none;
+  color: rgba(10, 0, 0, 0.863);
 }
 
-.tech{
-    margin: 2px;
-    padding: 0px;
-    font-weight: 200;
-    margin-top: 0.5rem;
+a:hover {
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.name {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 300;
+  text-align: center;
+  font-size: 22px;
+} 
+
+.tech {
+  margin: 2px;
+  padding: 0px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+    color: grey;
 }
 
-.link{
-    margin: 2px;
-    padding: 0px;
-    font-weight: 200;
-    margin-top: 0.5rem;
+.link {
+  margin: 2px;
+  padding: 0px;
+  font-weight: 200;
+  margin-top: 0.5rem;
 }
-p{
-    margin: 2px;
-    padding: 0px;
-    margin-top: 0.5rem;
+
+p {
+  margin: 2px;
+  padding: 0px;
+  margin-top: 0.5rem;
+    color: grey;
+}
+
+.flexbox {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

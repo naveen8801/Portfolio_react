@@ -8,7 +8,10 @@ function Header() {
     return (
       <div className={styles.header}>
         <div className={styles.header_resume_btn}>
-          <a href="https://drive.google.com/file/d/12cyFOhVofn6ZKXV5x9MZNQiRJIlE8eSR/view?usp=sharing" target="blank">
+          <a
+            href="https://drive.google.com/file/d/15bYBfeXaWwBVgtP0Mug1YIeKqjm6KWcP/view?usp=sharing"
+            target="blank"
+          >
             <Button
               className={styles.resume_btn}
               variant="contained"
