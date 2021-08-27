@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Skill_Tag from '../skills_tag/Skill_Tag';
 import styles from './skills.module.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Skills() {
+    useEffect(() => {
+      AOS.init();
+    }, []);
   return (
-    <div className={styles.skills_conatiner}>
+    <div
+      data-aos-offset="300"
+      data-aos-delay="40"
+      data-aos="fade-down"
+      className={styles.skills_conatiner}
+    >
       <div className={styles.bg}>
         <h1 className={styles.name_skills}>Tech I'am Familiar With</h1>
         <div className={styles.content_subsection_skills}>

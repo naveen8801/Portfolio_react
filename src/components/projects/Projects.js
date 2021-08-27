@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './project.module.css';
 import Projects_tag from './Projects_list/Projects_tag';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Projects() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className={styles.projects_container}>
+    <div
+      data-aos-offset="300"
+      data-aos-delay="40"
+      data-aos="fade-down"
+      className={styles.projects_container}
+    >
       <div className={styles.bg}>
         <h1 className={styles.name_projects}>Some Of My Work..</h1>
         <div className={styles.content_subsection_projects}>

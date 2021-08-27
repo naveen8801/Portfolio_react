@@ -1,5 +1,5 @@
 .skills_conatiner {
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
 }
 .bg {
@@ -18,7 +18,9 @@
   padding: 0px;
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
-  letter-spacing: 0.03.rem;
+  letter-spacing: 0.03rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .content_subsection_skills {
   display: inline-block;

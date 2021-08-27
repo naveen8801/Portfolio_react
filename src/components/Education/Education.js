@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './education.module.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Education() {
+    useEffect(() => {
+      AOS.init();
+    }, []);
   return (
-    <div className={styles.education}>
+    <div
+      data-aos-offset="300"
+      data-aos-delay="40"
+      data-aos="fade-down"
+      className={styles.education}
+    >
       <div className={styles.bg}>
         <h1 className={styles.name_header}>Education</h1>
         <div className={styles.content_subsection_education}>

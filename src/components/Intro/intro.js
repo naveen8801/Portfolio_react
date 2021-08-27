@@ -1,17 +1,27 @@
-import React from "react";
-import styles from "./intro.module.css";
-import img from "./img_my.jpg";
+import React, { useEffect } from 'react';
+import styles from './intro.module.css';
+import img from './img_my.jpg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Intro = () => {
+    useEffect(() => {
+      AOS.init();
+    }, []);
   return (
-    <div className={styles.intro_wrapper}>
+    <div
+      data-aos-offset="300"
+      data-aos-delay="40"
+      data-aos="fade-down"
+      className={styles.intro_wrapper}
+    >
       <div className={styles.bg}>
         <div className={styles.intro_outer}>
           <div className={styles.intro_text_content}>
             <h1 className={styles.name_header}>Naveen Kumar</h1>
             <h2 className={styles.short_bio}>
-              <strong>" </strong>MERN Stack | Open Source Contributor
-              | Deep Learning Enthusiast
+              <strong>" </strong>MERN Stack | Open Source Contributor | Deep
+              Learning Enthusiast
               <strong> "</strong>
             </h2>
             <p className={styles.inro_lines}>
