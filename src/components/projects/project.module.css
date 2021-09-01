@@ -1,6 +1,10 @@
 .projects_container {
   margin-top: 50px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .name_projects {
   font-size: 45px;

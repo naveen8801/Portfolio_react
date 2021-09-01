@@ -11,10 +11,6 @@
   width: 50%;
 }
 
-.bg:hover {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
 .name_header {
   font-size: 45px;
   display: inline-block;
